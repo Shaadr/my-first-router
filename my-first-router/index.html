@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app='myApp'>
+  <head>
+    <meta charset="utf-8">
+    <title>My First Router</title>
+  </head>
+  <body>
+
+    <nav>
+      <button ui-sref='home'>Home</button>
+      <button ui-sref='about'>About</button>
+    </nav>
+
+    <ui-view>Loading...</ui-view>
+
+
+
+
+    <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.js'> </script>
+    <script src='app.js'></script>
+    <script src ='home/homeCtrl.js'></script>
+    <script src='about/aboutCtrl.js'></script>
+  </body>
+</html>
